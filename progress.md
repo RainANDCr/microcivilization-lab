@@ -50,3 +50,9 @@
 - Chrome 发布构建 PWA 6 项通过：离线重开、安装、配额不足、未知写入失败、事务取消、更新中断/升级/回退。故障解除后重试保存及重开通过。
 - 核心 82、存储 3、类型检查、lint、正式构建通过。未改模拟引擎。
 - 按用户要求不延长压力测试。远端 CI、生产 HTTPS 部署、移动真机与读屏仍为外部验收，未宣称完成。
+
+## 2026-11-06 GitHub 上线
+- 仓库 https://github.com/RainANDCr/microcivilization-lab ，站点 https://rainandcr.github.io/microcivilization-lab/ 。
+- 发布代码 9cc73ed，部署运行 42139736459 成功，完整验证运行 42139736491 成功。
+- Chrome 实际 HTTPS 站点创建/单步/保存重开/断网重开推进通过。证据 artifacts/github-pages-live.json 和截图。
+- 自动部署工作流、README、RELEASE 和阶段记录已同步；仅文档记录提交使用 skip ci，网页继续使用已验收代码。

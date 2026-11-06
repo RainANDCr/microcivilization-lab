@@ -59,3 +59,10 @@
 - [complete] PWA 更新资源中断、成功升级及回退后的离线档案。
 - [skipped_by_user] 不做更长时间压力测试，保留现有三分钟发布构建数据。
 - [pending_external] 远端 CI、实际 HTTPS 部署、移动真机和读屏验收。
+
+## GitHub 托管与网页部署（2026-11-06）
+- [complete] 初始化 main、公开仓库 RainANDCr/microcivilization-lab、上传源码并排除存档/环境变量/缓存。
+- [complete] Actions 构建并发布 GitHub Pages，HTTPS 启用。
+- [complete] 真实站点创建、单步、保存重开、断网重开继续推进，无页面运行错误。
+- [complete] 远端 CI：核心 82、存储 3、浏览器 43（2 项 Chrome 专项在其他引擎跳过）、离线 5、PWA 6 和六组五年生态全部通过。
+- [skipped_by_user] 更长时间压力测试仍不执行。移动真机、读屏和生产回退演练没有执行。

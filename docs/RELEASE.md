@@ -55,4 +55,11 @@ npm run test:ecology
 - 本轮通过核心 82 项、存储 3 项、PWA 6 项，以及类型检查、lint 和正式构建。
 - 用户明确免除更长时间压力测试；保留已有发布构建三分钟采样，不据此保证小时级稳定性。
 
-当前满足本地公开测试版交付条件。正式上线仍需远端 CI、实际 HTTPS 站点的缓存与回退验收，以及移动真机和读屏人工验收。当前目录没有 Git 仓库或部署地址，这些外部验收尚未执行。
+当前满足公开测试版交付条件。Git 仓库和 HTTPS 站点已上线，线上验收见下。生产站点回退演练、移动真机和读屏人工验收尚未执行；更新中断和回退已在本地模拟服务验证。
+
+## GitHub Pages 首次上线（2026-11-06）
+
+- 发布代码：`9cc73ed`。 [首次部署](https://github.com/RainANDCr/microcivilization-lab/actions/runs/42139736459)构建和部署均成功。
+- 在真实 HTTPS 站点用 Chrome 验证：新建世界、Worker 单步、保存、刷新重开、断网刷新重开并继续推进全部通过，未出现页面运行错误。
+- [远端 CI](https://github.com/RainANDCr/microcivilization-lab/actions/runs/42139736491)：核心、存储、lint、构建、生态、跨浏览器、离线预览及 PWA 全部通过。
+- 浏览器验收证据保存在本机 `artifacts/github-pages-live.json` 和 `artifacts/github-pages-live.png`，不上传访问者档案。

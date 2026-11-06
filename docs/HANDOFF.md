@@ -68,3 +68,9 @@
 - 导入手工边界校验已实现；Zod schema/版本迁移需要后续完善。
 - Pixi 当前整张地图纹理刷新，未实现分块裁剪，Phase 01 性能验收未完成。
 - 当前预览服务器仅绑定 127.0.0.1，服务允许列表内的前端与模拟源码，不能访问 npm 缓存或其他工作区文件。
+
+## 2026-11-06 GitHub 托管与部署
+- 仓库：https://github.com/RainANDCr/microcivilization-lab ，默认分支 main。
+- 网页：https://rainandcr.github.io/microcivilization-lab/ ，GitHub Pages Actions 自动部署，HTTPS 启用。
+- 发布代码 9cc73ed，部署及完整远端 CI 均成功，详细证据与剩余人工验收见 RELEASE.md。
+- 真实站点创建、推进、保存重开和断网重开推进通过；个人存档保存在访问者浏览器，没有上传到仓库。
