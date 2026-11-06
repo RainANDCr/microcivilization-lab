@@ -1,0 +1,145 @@
+{
+  "runtime": "v24.21.0",
+  "results": [
+    {
+      "seed": "rain-river",
+      "engine": "0.3.0",
+      "years": 100,
+      "adultDescendants": 74,
+      "secondGenerationBirths": 1394,
+      "hash": "be8f7854",
+      "samples": [
+        {
+          "year": 10,
+          "population": 66,
+          "children": 42,
+          "youth": 0,
+          "adults": 24,
+          "elders": 0,
+          "families": 11,
+          "births": 125,
+          "deaths": 83,
+          "food": 175199,
+          "regrown": 383561
+        },
+        {
+          "year": 20,
+          "population": 95,
+          "children": 41,
+          "youth": 21,
+          "adults": 27,
+          "elders": 6,
+          "families": 15,
+          "births": 266,
+          "deaths": 195,
+          "food": 164246,
+          "regrown": 903717
+        },
+        {
+          "year": 30,
+          "population": 90,
+          "children": 21,
+          "youth": 7,
+          "adults": 45,
+          "elders": 17,
+          "families": 30,
+          "births": 563,
+          "deaths": 497,
+          "food": 166374,
+          "regrown": 1553655
+        },
+        {
+          "year": 40,
+          "population": 102,
+          "children": 37,
+          "youth": 1,
+          "adults": 45,
+          "elders": 19,
+          "families": 33,
+          "births": 961,
+          "deaths": 883,
+          "food": 166626,
+          "regrown": 2202986
+        },
+        {
+          "year": 50,
+          "population": 108,
+          "children": 49,
+          "youth": 5,
+          "adults": 46,
+          "elders": 8,
+          "families": 31,
+          "births": 1318,
+          "deaths": 1234,
+          "food": 163868,
+          "regrown": 2821144
+        },
+        {
+          "year": 60,
+          "population": 119,
+          "children": 61,
+          "youth": 5,
+          "adults": 51,
+          "elders": 2,
+          "families": 31,
+          "births": 1632,
+          "deaths": 1537,
+          "food": 166077,
+          "regrown": 3436241
+        },
+        {
+          "year": 70,
+          "population": 69,
+          "children": 7,
+          "youth": 2,
+          "adults": 22,
+          "elders": 38,
+          "families": 30,
+          "births": 1940,
+          "deaths": 1895,
+          "food": 162892,
+          "regrown": 4049941
+        },
+        {
+          "year": 80,
+          "population": 104,
+          "children": 37,
+          "youth": 4,
+          "adults": 18,
+          "elders": 45,
+          "families": 32,
+          "births": 1976,
+          "deaths": 1896,
+          "food": 168146,
+          "regrown": 4645154
+        },
+        {
+          "year": 90,
+          "population": 72,
+          "children": 0,
+          "youth": 0,
+          "adults": 58,
+          "elders": 14,
+          "families": 37,
+          "births": 1976,
+          "deaths": 1928,
+          "food": 175442,
+          "regrown": 5161584
+        },
+        {
+          "year": 100,
+          "population": 59,
+          "children": 0,
+          "youth": 0,
+          "adults": 53,
+          "elders": 6,
+          "families": 31,
+          "births": 1976,
+          "deaths": 1941,
+          "food": 178060,
+          "regrown": 5526932
+        }
+      ]
+    }
+  ]
+}

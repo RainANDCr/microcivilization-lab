@@ -1,0 +1,56 @@
+{
+  "name": "microcivilization",
+  "version": "0.4.6",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "npm run test:core && npm run test:storage",
+    "test:core": "node --experimental-strip-types --test tests/core.test.ts tests/archive.test.ts tests/server.test.ts tests/worker.test.ts tests/build.test.ts tests/settlements.test.ts tests/families.test.ts tests/history.test.ts tests/mods.test.ts tests/timeline-storage.test.ts apps/web/src/experiment.test.ts",
+    "test:storage": "vitest run tests/storage.test.ts",
+    "test:ecology": "node --experimental-strip-types scripts/check-ecology.ts",
+    "test:population": "node --experimental-strip-types scripts/check-population.ts",
+    "test:childcare": "node --experimental-strip-types scripts/check-childcare.ts",
+    "test:e2e": "playwright test",
+    "test:pwa": "playwright test -c playwright.pwa.config.ts",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:e2e:offline": "playwright test -c playwright.offline.config.ts",
+    "build": "tsc --noEmit && vite build && node scripts/build-pwa.mjs",
+    "benchmark": "node --experimental-strip-types scripts/benchmark.ts",
+    "dev:offline": "node scripts/offline-server.mjs",
+    "build:offline": "node scripts/build-offline.mjs",
+    "typecheck:core": "tsc --noEmit --strict --skipLibCheck --target ES2022 --module ESNext --moduleResolution Bundler --allowImportingTsExtensions --lib ES2022,DOM packages/sim-core/src/index.ts packages/sim-core/src/metrics.ts packages/protocol/src/index.ts packages/content/src/index.ts"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "pixi.js": "^8.0.0",
+    "zustand": "^5.0.0",
+    "dexie": "^4.0.0",
+    "zod": "^4.0.0",
+    "lucide-react": "^0.468.0",
+    "echarts": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "@playwright/test": "^1.50.0",
+    "eslint": "^9.0.0",
+    "typescript-eslint": "^8.0.0",
+    "@eslint/js": "^9.0.0",
+    "globals": "^16.0.0",
+    "tsx": "^4.0.0",
+    "fake-indexeddb": "^6.0.0"
+  }
+}

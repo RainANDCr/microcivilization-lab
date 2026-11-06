@@ -1,0 +1,50 @@
+{
+  "runtime": "v24.21.0",
+  "results": [
+    {
+      "engine": "0.3.0",
+      "years": 10,
+      "population": 66,
+      "children": 42,
+      "youth": 0,
+      "adults": 24,
+      "elders": 0,
+      "families": 11,
+      "births": 125,
+      "deaths": 83,
+      "childDeaths": 83,
+      "food": 175199,
+      "hash": "380f88e9"
+    },
+    {
+      "engine": "0.3.1",
+      "years": 10,
+      "population": 98,
+      "children": 74,
+      "youth": 0,
+      "adults": 24,
+      "elders": 0,
+      "families": 11,
+      "births": 128,
+      "deaths": 54,
+      "childDeaths": 54,
+      "food": 168725,
+      "hash": "556f8f2c"
+    },
+    {
+      "engine": "0.4.0",
+      "years": 10,
+      "population": 98,
+      "children": 74,
+      "youth": 0,
+      "adults": 24,
+      "elders": 0,
+      "families": 11,
+      "births": 128,
+      "deaths": 54,
+      "childDeaths": 54,
+      "food": 168725,
+      "hash": "508fbf90"
+    }
+  ]
+}

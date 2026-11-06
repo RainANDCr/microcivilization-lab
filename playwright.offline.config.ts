@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'./tests/e2e',testMatch:'offline.spec.ts',use:{baseURL:'http://127.0.0.1:5180',headless:true},webServer:{command:'npm run dev:offline',url:'http://127.0.0.1:5180',reuseExistingServer:!process.env.CI},projects:[{name:'chromium',use:{browserName:'chromium',launchOptions:{executablePath:process.env.MC_CHROMIUM_PATH}}}]});
